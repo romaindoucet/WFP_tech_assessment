@@ -2,8 +2,4 @@
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
-notebooks/charts/
-notebooks/check_transfo.csv
-notebooks/claude_missing_cat.csv
-notebooks/03_executive_summary.ipynb
-data/
+.claude/

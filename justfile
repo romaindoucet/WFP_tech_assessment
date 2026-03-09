@@ -1,5 +1,9 @@
 # WFP Supply Chain Assessment - Just recipes
 
+# Show available commands
+help:
+    @just --list
+
 # Install dependencies
 install:
     uv sync --all-extras --all-groups
