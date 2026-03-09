@@ -1,0 +1,33 @@
+[project]
+name = "wfp"
+version = "0.0.1"
+requires-python = ">=3.13,<3.14"
+dependencies = [
+    "ipyvuetify",
+    "ipywidgets",
+    "openpyxl>=3.1.5",
+    "pandas",
+    "plotly",
+    "polars",
+    "pyarrow",
+]
+description = "Interview 2 coding exercise"
+readme = "README.md"
+authors = [
+    {name = "Romain Doucet", email="romain.doucet@airbus.com"}
+]
+
+[project.optional-dependencies]
+lab = [
+    "jupyterlab",
+    "jupyterlab_execute_time",
+    "jupyterlab-git",
+    "jupyterlab_code_formatter",
+]
+dev = [
+    "isort",
+    "pre-commit",
+    "ruff",
+    "pytest",
+    "pytest-cov",
+]
